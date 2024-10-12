@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "judesa"
+version = "0.1.0"
+description = ""
+authors = ["Alejandro0098 <alejandro.marin.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-decouple = "^3.8"
+whitenoise = "^6.7.0"
+gunicorn = "^23.0.0"
+django-cors-headers = "^4.4.0"
+django = "5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
